@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly</title>
+    <link rel="icon" href="Weather_app_img/icon.jpg">
+    <link rel="stylesheet" href="weatherCSS.css">
+</head>
+
+
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="city" spellcheck="false">
+            <button><img src="Weather_app_img/search.png" alt="..."></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name!</p>
+        </div>
+        <div class="weather">
+            <img class="weather-icon" src="Weather_app_img/rain.png">
+            <h1 class="temp">22°c</h1>
+            <div class="info">
+                <h2 class="city">Dindigul</h2>
+                <h4 class="mode">cloud</h4>
+            </div>
+            <div class="details">
+                <div class="col">
+                    <img src="Weather_app_img/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="Weather_app_img/wind.png">
+                    <div>
+                        <p class="wind">7.00 kmph</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="weatherJS.js"></script>    
+</body>
+</html>
