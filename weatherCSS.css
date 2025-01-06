@@ -25,6 +25,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    flex:1;
 }
 
 .search input{
@@ -32,7 +33,7 @@ body{
     outline: 0;
     background: #ffffff;
     color: #555;
-    margin-right: 16px;
+    margin-right: 10px;
     padding: 10px 25px;
     padding-right: 20px;
     border-radius: 50px;
@@ -51,7 +52,7 @@ body{
 }
 
 .search button img{
-    width:16px;
+    width:10px;
     background: #ffffff;
 }
 
